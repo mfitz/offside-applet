@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <meta content="Michael Fitzmaurice" name="Author">
+    <meta content="Association Football Offside Rule, Java Applet" name="Keywords">
+    <meta content="You can test or run the Offside Applet from this web page" name="description">
+
+    <title>Offside Applet</title>
+</head>
+
+<body background="" text="black">
+
+<center><h1>Offside Applet</center>
+
+<table align="center" border=0 cellspacing=5 cellpadding=35 width="100%">
+<tr align="left" valign="middle">
+    <td width="50%">
+        <h3>Instructions</h3>
+
+        <ol>
+            <li>
+                Place the mouse pointer over a player. Blue players are
+                attacking the goal at the top of the screen, reds defending.
+                Hold down the mouse button. Drag the player into any position on the pitch you fancy.
+                Release the mouse button to drop the player in his current
+                location. Repeat with as many players as you like.
+            </li>
+            <li>
+                Click the 'Check for Offside' button. The red line represents the 'offside threshold'
+                i.e. the point beyond which attacking players must not stray if
+                they are to remain onside.
+            </li>
+            <li>
+                The applet will either inform you of the (most) offside player,
+                or describe the play as being onside.
+            </li>
+            <li>
+                You also have the facility to draw arbitray shapes over the scene,
+                a la Andy Gray on Sky Sports. To do this, click and drag the mouse
+                without selecting a player to move. You are the pundit!
+            </li>
+            <li>
+                If you are technically minded (or just curious, in all senses
+                of the word...) you can 
+                <a href="https://github.com/mfitz/offside-applet/blob/master/src/main/java/com/michaelfitzmaurice/offside/OffsideApplet.java" target="_blank">
+                see the Java source code here.</a>
+            </li>
+        </ol>
+    </td>
+    
+    <td width="50%">
+        <applet 
+            code="com.michaelfitzmaurice.offside.OffsideApplet.class"
+            archive="offside-applet.jar"
+            width=450 height=450>
+            <param name="pitch-image" value="footballPitch.gif">
+            
+          <strong>
+          If you are reading this, your browser is not Java enabled.
+          </strong>
+  
+        </applet>
+    </td>
+    
+</tr>
+</table>
+
+<hr>
+<a href="mailto:michael@michaelfitzmaurice.com">Michael Fitzmaurice</a> April, 2003
+
+</body>
+
+</html>
