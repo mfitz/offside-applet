@@ -15,7 +15,7 @@ You can then unpack the subsequent zip file to a local directory, wherein you wi
 
     appletviewer offside-applet.html
 
-Alternatively, you could open offside-applet.html in a java-enabled browser. As with all Java applets, your particular browser and JRE combination may be different from those on which I have tested this method of running the applet, and that difference may cause some form of fail. But hey - that's applets for you. I did write this back in 2003, so, you know - YMMV. There's a reason they died out, right?
+Alternatively, you could open offside-applet.html in a java-enabled browser. As with all Java applets, your particular browser and JRE combination may be different from those on which I have tested this method of running the applet, and that difference may cause some form of fail. But hey - that's applets for you. I did write this back in 2003, so, you know - YMMV. There's a reason applets died out, right?
 
 You could also drop the 3 files into the same directory of a web server and serve the applet up over HTTP, if you fancy. I've done that on my personal website at http://http://www.michaelfitzmaurice.com/OffsideApplet.html 
 
