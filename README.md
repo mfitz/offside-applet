@@ -3,6 +3,8 @@ Offside Applet
 
 A Java applet to explain the Offside Rule in Association Football. I wrote the applet itself back in 2003, but I have recently wrapped it in a Maven project. 
 
+![Offside applet screenshot](/src/main/resources/images/offside-applet.png "Offside applet screenshot")
+
 Building
 ===========
 
