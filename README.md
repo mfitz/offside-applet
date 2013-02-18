@@ -39,6 +39,8 @@ Everything the applet needs at runtime is in the same directory when you build a
     
 ![Offside applet pitch-image param](/src/main/resources/images/offside-applet-eclipse-ide.png "Offside applet pitch-image")    
 
+450 pixels is a good value for both the applet width and height, although you can increase these values if you prefer a larger pitch. The football pitch image file stretches to fill whatever dimensions you supply.
+
 
  
 
